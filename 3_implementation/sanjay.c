@@ -2,10 +2,10 @@
 
 #define CANDIDATE_COUNT
 
-#define CANDIDATE1 "Sanjay"
-#define CANDIDATE2 "Praveen"
-#define CANDIDATE3 "Niranjan"
-#define CANDIDATE4 "Saran"
+#define CANDIDATE1 "SANJAY"
+#define CANDIDATE2 "PRAVVEN"
+#define CANDIDATE3 "NIRANJAN"
+#define CANDIDATE4 "SARAN"
 
 int votesCount1=0, votesCount2=0, votesCount3=0, votesCount4=0, spoiledtvotes=0;
 
@@ -66,7 +66,7 @@ int i;
 int choice;
 
 do{
-printf("\n\n ###### Welcome to Election/Voting 2022 #####");
+printf("\n\n ###### ELECTION 2022 #####");
 printf("\n\n 1. Cast the Vote");
 printf("\n 2. Find Vote Count");
 printf("\n 3. Find leading Candidate");
@@ -84,7 +84,6 @@ default: printf("\n Error: Invalid Choice");
 }
 }while(choice!=0);
 
-//hold the screen
 getchar();
 
 return 0;
